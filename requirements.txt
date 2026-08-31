@@ -1,0 +1,24 @@
+# Core
+transformers>=4.38.0
+torch>=2.0.0
+datasets
+sentencepiece
+
+# Claude API (primary synthesis model)
+anthropic>=0.30.0
+
+# NLP - pinned for Python 3.9 compatibility
+spacy>=3.5.0,<3.7.0
+sentence-transformers>=2.2.0
+
+# Visualization & UI
+gradio>=4.0.0
+plotly>=5.0.0
+matplotlib>=3.7.0
+
+# Utilities
+numpy
+pandas
+nbformat
+ipykernel
+python-dotenv
